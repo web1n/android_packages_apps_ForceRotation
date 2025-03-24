@@ -1,0 +1,17 @@
+android_app {
+    name: "ForceRotation",
+
+    srcs: [
+        "src/**/*.kt"
+    ],
+    resource_dirs: ["res"],
+    certificate: "platform",
+    platform_apis: true,
+    system_ext_specific: true,
+    privileged: true,
+
+    static_libs: [
+        "SettingsLib",
+        "androidx.core_core"
+    ]
+}
