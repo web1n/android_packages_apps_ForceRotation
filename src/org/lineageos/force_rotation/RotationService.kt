@@ -93,7 +93,7 @@ class RotationService : Service() {
             width = 0
             height = 0
             format = PixelFormat.TRANSLUCENT
-            screenOrientation = ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED
+            screenOrientation = ActivityInfo.SCREEN_ORIENTATION_USER
         }
 
         try {
